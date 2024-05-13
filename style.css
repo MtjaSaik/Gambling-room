@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: url(pictures/background.webp) no-repeat fixed center;
+    background-size: cover;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 900px;
+    height: 350px;
+    margin: auto;
+}
+
+.filler{
+    width: inherit;
+    height: 100px;
+}
+
+.title{
+    width: inherit;
+    height: 100px;
+    background-color: rgb(91, 91, 91);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 0.1px solid rgb(130, 130, 130);
+}
+
+.title h1{
+    font-size: 60px;
+    /*text-shadow: 2px 0.1px rgba(255, 219, 219, 0.4);*/
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255, 0.2);
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.45);
+    color: rgb(179,7,6);
+    font-family: custom;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-top: 20px;
+}
+
+.menu{
+    width: inherit;
+    height: inherit;
+    background-color: rgb(71, 71, 71);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.players{
+    width: inherit;
+    height: 150px;
+}
+
+.list{
+    color: white;
+    width: 33%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 25px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(179, 7, 6, 0.225);
+    text-shadow: 3px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txtin{
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    width: 33%;
+}
+
+li{
+    margin-top: 25px;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid rgba(141, 0, 0, 1);
+    height: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 200px;
+    font-weight: 600;
+}
+
+.settings{
+    width: inherit;
+    height: 150px;
+    margin-top: 35px;
+}
+
+.settings input{
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+.settings a{
+    font-size: 20px;
+    margin-left: 75px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 234, 0, 0.15);
+    text-shadow: 2px 2px black;
+}
+
+.submit{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(179, 7, 6, 0.2);
+}
+
+.settings .submit{
+    margin-left: 75px;
+}
+
+.settings-dice{
+    width: 100px;
+    text-indent: 10px;
+}
+
+.settings-rounds{
+    width: 100px;
+    text-indent: 10px;
+}
+
+@font-face{
+    font-family: custom;
+    src: url(fonts/CoffeetinInitials-YXJ2.ttf);
+}
