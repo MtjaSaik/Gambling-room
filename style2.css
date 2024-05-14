@@ -42,9 +42,9 @@ html, body{
     font-size: 60px;
     /*text-shadow: 2px 0.1px rgba(255, 219, 219, 0.4);*/
     -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: rgb(255, 255, 255, 0.2);
+    -webkit-text-stroke-color: rgb(255, 255, 255, 0.1);
     text-shadow: 1px 1px rgba(255, 255, 255, 0.45);
-    color: rgb(179,7,6);
+    color: rgb(206, 12, 12);
     font-family: custom;
     text-align: center;
     letter-spacing: 8px;
@@ -67,6 +67,10 @@ html, body{
     height: 300px;
 }
 
+.submit:hover{
+    background-color: rgb(199, 199, 199);
+}
+
 form{
     width: inherit;
     height: inherit;
@@ -84,13 +88,13 @@ form{
 
 a{
     font-size: 30px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 234, 0);
     -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
+    -webkit-text-stroke-color: rgba(255, 0, 0, 0.1);
 }
 
 img{
-    margin-top: 15px;
+    margin-top: 25px;
     display: inline-block;
     margin-left: 5px;
 }
@@ -118,9 +122,9 @@ img{
     margin-left: 325px;
     color: rgb(255, 0, 0);
     font-size: 40px;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
-    text-shadow: 1px 1px rgba(255, 0, 0, 0.2);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.05);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.2);
 }
 
 @font-face{
