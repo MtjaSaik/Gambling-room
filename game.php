@@ -80,7 +80,7 @@
                             }?></br>
                         </div>
                         <div class="sub">
-                            <a>Current round: <?php echo $_SESSION["played_rounds"]?></a></br>
+                            <a>Current round: <?php echo $_SESSION["played_rounds"]?>/<?php echo $_SESSION["rounds"]?></a></br>
                             <input type="submit" class="submit" value="<?php 
                                 if($_SESSION["played_rounds"]==$_SESSION["rounds"]){echo 'Finish';}
                                 else {echo 'Play another round';}?>"

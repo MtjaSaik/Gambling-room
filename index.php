@@ -30,8 +30,8 @@
                         </ul>
                         <div class="settings">
                             <a>Number of dice: </a><input type="number" class="settings-dice" min="1" max="3" value="1" required name="dice">
-                            <a>Number of rounds::</a><input type="number" class="settings-rounds" min="1" max="5" value="1" required name="rounds">
-                            <input type="submit" class="submit" value="submit" name="play">
+                            <a>Number of rounds:</a><input type="number" class="settings-rounds" min="1" max="5" value="1" required name="rounds">
+                            <input type="submit" class="submit" value="play" name="play">
                         </div>
                     </form>
                 </div>
