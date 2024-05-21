@@ -1,9 +1,4 @@
 var sec = 10;
-function goBack(){
-    location.href="index.php";
-}
-
-
 function redirect(){
     setInterval(function(){
         if(sec==0){

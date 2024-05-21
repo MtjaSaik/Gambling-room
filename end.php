@@ -74,7 +74,6 @@
                                     }
                                     ?>
                             </a>
-                            <input type="button" class="submit" value="Back to main menu" onclick="goBack();">
                             <div class="redirect">
                                 You will be redirected in <span id="time">10</span> seconds.
                             </div>
@@ -87,4 +86,6 @@
 </body>
 
 <script src="JavaScript/script.js"></script>
+<script src="JavaScript/jQuery.js"></script>
+<script src="JavaScript/jQuery-fireworks.js"></script>
 </html>
